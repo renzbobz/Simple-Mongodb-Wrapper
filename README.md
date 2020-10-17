@@ -74,9 +74,11 @@ try {
 
 
 ### Find
-> collection.select([filter]);
+```js
+collection.select([filter]);
 
-> collection.selectAll([filter]);
+collection.selectAll([filter]);
+```
 
 ```js
 try {
@@ -100,7 +102,7 @@ try {
 ```
 
 ### Insert
-```
+```js
 collection.insert(<data>, [options]);
 
 collection.insertAll(<data(array)>, [options]);
@@ -126,9 +128,11 @@ try {
 
 
 ### Update
-> collection.update(<filter>, <data>);
+```js
+collection.update(<filter>, <data>);
 
-> collection.updateAll(<filter>, <data>);
+collection.updateAll(<filter>, <data>);
+```
 
 ```js
 try {
@@ -166,9 +170,11 @@ try {
 
 
 ### Delete
-> collection.delete([filter]);
+```js
+collection.delete([filter]);
 
-> collection.deleteAll([filter]);
+collection.deleteAll([filter]);
+```
 
 ```js
 try {
@@ -189,7 +195,9 @@ try {
 ```
 
 ### Distinct
-> collection.distinct(<field_name>, [filter]);
+```js
+collection.distinct(<field_name>, [filter]);
+```
 
 ```js
 try {
@@ -202,7 +210,9 @@ try {
 ```
 
 ### Count
-> collection.count([filter]);
+```js
+collection.count([filter]);
+```
 
 ```js
 try {
@@ -220,7 +230,9 @@ try {
 
 
 ### Auto increment ID
-> mongo.getNextSequence(<counter_name>);
+```js
+mongo.getNextSequence(<counter_name>);
+```
 
 #### Notice: This will create "counters" collection
 
