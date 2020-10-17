@@ -87,25 +87,17 @@ try {
   // returns all users
   const users = await collection.selectAll();
   
-} catch(err) {
-  console.log(err);
-}
-```
-With filters
-```js
-try {
-
+  // with filters
   // returns only renz
   const renz = await collection.select({username:"renz"});
   
   // returns all online users
-  const onlineUsers = await collection.selectAll({is_online:true});
+  const onlineUsers = await collection.selectAll({is_online:true})
   
 } catch(err) {
   console.log(err);
 }
 ```
-
 
 ### Insert
 > collection.insert(<data>, [options]);
