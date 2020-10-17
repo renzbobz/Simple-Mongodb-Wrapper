@@ -100,9 +100,11 @@ try {
 ```
 
 ### Insert
-> collection.insert(<data>, [options]);
+```
+collection.insert(<data>, [options]);
 
-> collection.insertAll(<data(array)>, [options]);
+collection.insertAll(<data(array)>, [options]);
+```
 
 ```js
 try {
