@@ -2,11 +2,11 @@
 10/17/20
 
 ## Getting started
-Install the package
+Install
 ```js
 npm install simple-mongodb-wrapper
 ```
-then require the package:
+then require it:
 ```js
 const mongo = require("simple-mongodb-wrapper");
 ```
