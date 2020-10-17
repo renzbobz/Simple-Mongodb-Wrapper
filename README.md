@@ -4,11 +4,11 @@
 ## Getting started
 Install the package
 ```js
-npm install mongodb-wrapper
+npm install simple-mongodb-wrapper
 ```
 then require the package:
 ```js
-const mongo = require("mongodb-wrapper");
+const mongo = require("simple-mongodb-wrapper");
 ```
 and now its ready to use!
 
