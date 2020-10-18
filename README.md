@@ -1,4 +1,4 @@
-# Simple mongodb wrapper
+# Simple Mongodb Wrapper
 10/17/20
 
 ## Getting started
